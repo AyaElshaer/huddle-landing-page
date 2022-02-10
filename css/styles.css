@@ -463,7 +463,8 @@ footer .newsletter input[type="submit"] {
     width: 70%;
   }
   footer .newsletter input[type="submit"] {
-    margin: 1.5rem 0;
+    margin-top: 0.5rem;
+    margin-bottom: 3.5rem;
     margin-left: 35%;
     width: 35%;
   }
