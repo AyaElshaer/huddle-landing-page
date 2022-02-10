@@ -21,12 +21,13 @@ body {
   line-height: 1.5;
   overflow-x: hidden;
 }
-h1,
-h2 {
+h1 {
   font-family: "Poppins", sans-serif;
   color: var(--Very-Dark-Cyan);
 }
-p {
+
+p,
+h2 {
   color: var(--Very-Dark-Cyan);
 }
 
@@ -64,35 +65,35 @@ main .building {
   color: var(--Very-Dark-Cyan);
 }
 .building .header {
-  font-size: 3.5rem;
+  font-size: 3rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .building p {
-  width: 35%;
+  width: 30%;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
   margin-bottom: 1.5rem;
 }
 
 .building .btn {
   background-color: var(--Pink);
-  color: var(--Very-Pale-Blue);
+  color: #fff;
   border-radius: 2.5rem;
   padding: 1.3rem 5rem;
   border: none;
   margin-top: 1rem;
-  box-shadow: 0px 0px 10px 2px rgb(0 0 0 / 9%);
+  box-shadow: 3px 3px 10px 3px rgb(0 0 0 / 10%);
   font-size: 1.2rem;
 }
 .building .btn:hover {
   background-color: var(--Light-Pink);
 }
 
-.building img.mockups{
+.building img.mockups {
   width: 50%;
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 @media (min-width: 1400px) {
@@ -116,15 +117,15 @@ main .building {
     padding: 0.5rem 1.8rem;
   }
   .building p {
-    width: 70%;
+    width: 77%;
     margin-top: 2rem;
   }
-  .building .mockups{
-    width: 70%;
+  .building img.mockups {
+    width: 80%;
   }
   .building .header {
     padding: 0 18px;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .building .btn {
     margin-top: 3.5rem;
@@ -141,14 +142,16 @@ main .building {
 }
 
 .stats h2 {
-  font-size: 4.3rem;
+  font-size: 4rem;
+  font-weight: 800;
+
   margin: 0.5rem 0;
 }
 .stats img {
-  width: 4rem;
+  width: 3rem;
 }
 .stats p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   color: gray;
 }
@@ -174,7 +177,6 @@ main .building {
   margin: 18rem 0;
   gap: 5rem;
   position: relative;
-  padding-bottom: 5rem;
 }
 .sec-content .sec-info {
   width: 50%;
@@ -185,13 +187,13 @@ main .building {
   padding-left: 7rem;
 }
 .sec-content .sec-info h2 {
-  margin: 1rem 0;
-  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  font-size: 2rem;
 }
 .sec-content .sec-info p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 400;
-  width: 80%;
+  width: 75%;
 }
 
 .sec-content .sec-img {
@@ -265,6 +267,7 @@ main .building {
   }
   .sec-content .sec-info p {
     margin: 0 auto;
+    width: 92%;
   }
   .grow .bg-top-1,
   .user .bg-top-2,
@@ -316,7 +319,7 @@ main .building {
   margin: 0 1.5rem;
 }
 .ready-to-build .btn {
-  padding: 1.5rem 6rem;
+  padding: 1.2rem 4rem;
   margin-top: 2rem;
 }
 
@@ -422,6 +425,7 @@ footer .newsletter input[type="email"] {
 }
 input:focus {
   outline: solid 1px var(--Pink);
+  border-radius: 5px;
 }
 footer .newsletter input[type="submit"] {
   padding: 1rem 3rem;
@@ -474,6 +478,11 @@ footer .newsletter input[type="submit"] {
   footer .contact-info p {
     width: 60%;
     min-width: 80%;
+  }
+
+  .ready-to-build h1 {
+    font-size: 2.3rem;
+    margin-bottom: 2rem;
   }
 }
 @media (max-width: 450px) {
